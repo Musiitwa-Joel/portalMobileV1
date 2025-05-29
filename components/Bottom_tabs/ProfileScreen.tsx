@@ -159,7 +159,7 @@ const Biodata: React.FC = () => {
       content: null,
       onTap: () => {
         authContext?.logout();
-        router.navigate("/");
+        router.replace("/");
       },
     },
   ];

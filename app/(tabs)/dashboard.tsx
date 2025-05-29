@@ -255,6 +255,10 @@ export default function Dashboard() {
           router.push("/faq");
         } else if (item.id === "6") {
           router.push("/counselling");
+        } else if (item.id === "11") {
+          router.push("/elearning");
+        } else if (item.id === "12") {
+          router.push("/suggestion_box");
         }
       }}
     >

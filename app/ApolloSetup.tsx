@@ -28,7 +28,7 @@ const ApolloSetup: React.FC<ApolloSetupProps> = ({ children }) => {
 
   // Create an HTTP link to connect to the GraphQL server
   const httpLink = new HttpLink({
-    uri: "http://localhost:2323/graphpl",
+    uri: "https://tredumo.com/graphql",
   });
 
   // Create the Apollo Client instance

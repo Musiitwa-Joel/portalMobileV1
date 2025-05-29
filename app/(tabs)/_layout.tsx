@@ -331,6 +331,22 @@ export default function RootLayout() {
             title: "Refunds",
           }}
         />
+        <Stack.Screen
+          name="elearning"
+          options={{
+            headerShown: true,
+            headerStyle: headerStyle,
+            title: "E-Learning",
+          }}
+        />
+        <Stack.Screen
+          name="suggestion_box"
+          options={{
+            headerShown: true,
+            headerStyle: headerStyle,
+            title: "Suggestion Box",
+          }}
+        />
       </Stack>
     </AppContext.Provider>
   );
