@@ -90,6 +90,14 @@ export default function RootLayout() {
           }}
         />
         <Stack.Screen
+          name="e_voting"
+          options={{
+            title: "Electronic Voting",
+            headerShown: true,
+            headerStyle: headerStyle,
+          }}
+        />
+        <Stack.Screen
           name="faq"
           options={{
             title: "Faq",

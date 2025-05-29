@@ -253,6 +253,8 @@ export default function Dashboard() {
           router.push("/services");
         } else if (item.id === "10") {
           router.push("/faq");
+        } else if (item.id === "9") {
+          router.push("/e_voting");
         } else if (item.id === "6") {
           router.push("/counselling");
         } else if (item.id === "11") {
