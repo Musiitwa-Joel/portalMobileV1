@@ -174,7 +174,7 @@ export default function VotingInstructions() {
       >
         <View style={styles.checkbox}>
           {isChecked && (
-            <Ionicons name="checkmark" size={20} color={theme.primary} />
+            <Ionicons name="checkmark\" size={20} color={theme.primary} />
           )}
         </View>
         <Text style={styles.checkboxText}>
